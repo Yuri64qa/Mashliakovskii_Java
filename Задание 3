@@ -1,0 +1,13 @@
+public class Main {
+public static void main(String[] args) {
+    // Входной массив
+    int[] array = {3, 6, 7, 10, 12, 13};
+       
+    for (int i = 0; i < array.length; i++) {
+      
+        if (array[i] % 3 == 0) {
+            System.out.println(array[i]);
+        }
+    }
+  }
+}
